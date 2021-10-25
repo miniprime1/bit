@@ -1,7 +1,7 @@
 #pragma once
 
 class Bit {
-	int bit;
+	unsigned int bit;
 
 public:
 	Bit(int B) :bit{ B % 2 } {};
